@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>林廷叡-個人學習歷程檔案</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body {
+scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<!-- 導覽列 -->
+<nav class="fixed top-0 w-full bg-white shadow z-50">
+<div class="max-w-6xl mx-auto px-6 py-4 flex justify-between">
+<h1 class="font-bold">學習歷程檔案</h1>
+<div class="space-x-4">
+<a href="#about">關於我</a>
+<a href="#skills">技能</a>
+<a href="#projects">作品</a>
+</div>
+</div>
+</nav>
+
+<!-- 首頁 -->
+<section class="h-screen flex items-center justify-center">
+<div class="text-center">
+<h1 class="text-5xl font-bold mb-4">林廷叡</h1>
+<p class="text-gray-500"></p>
+</div>
+</section>
+
+<!-- 關於我 -->
+<section id="about" class="max-w-5xl mx-auto py-20 px-6">
+<h2 class="text-3xl font-bold mb-6">關於我</h2>
+<p>
+我目前就讀資料處理科，學習過 Python、C++、網頁設計，
+並對人工智慧與影像辨識有興趣。
+</p>
+</section>
+
+<!-- 技能 -->
+<section id="skills" class="bg-white py-20">
+<div class="max-w-5xl mx-auto px-6">
+<h2 class="text-3xl font-bold mb-6">技能</h2>
+<ul class="space-y-2">
+<li>Python</li>
+<li>C++</li>
+<li>HTML / CSS</li>
+<li>AI影像辨識基礎</li>
+</ul>
+</div>
+</section>
+
+<!-- 作品 -->
+<section id="projects" class="max-w-5xl mx-auto py-20 px-6">
+<h2 class="text-3xl font-bold mb-6">作品</h2>
+<p>（之後可以放你的專題或作業）</p>
+</section>
+
+<!-- 頁尾 -->
+<footer class="text-center py-10 text-gray-400">
+© 2026 林廷叡-個人學習歷程數位檔案
+</footer>
+
+</body>
+</html>
