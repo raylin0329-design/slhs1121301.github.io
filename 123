@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>林廷叡-個人學習歷程檔案</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+html {
+scroll-behavior: smooth;
+}
+</style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 pt-20">
+
+<!-- 導覽列 -->
+<nav class="fixed top-0 w-full bg-blue-500 shadow z-50">
+  <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+    <h1 class="font-bold text-white text-xl">學習歷程檔案</h1>
+
+    <div class="space-x-6 text-white">
+      <a href="#about" class="hover:underline">關於我</a>
+      <a href="#special" class="hover:underline">專題</a>
+      <a href="#skills" class="hover:underline">證照</a>
+      <a href="#projects" class="hover:underline">作品</a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<!-- 首頁 -->
+<section class="h-screen flex items-center justify-center">
+
+  <div class="text-center px-6 flex flex-col items-center justify-center">
+
+    <!-- 大頭照 -->
+    <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl mb-6">
+    <img src="image/profile.jpg"  class="w-full h-full object-cover">
+    </div>
+
+    <!-- 名字 -->
+    <h1 class="text-5xl font-bold mb-6">林廷叡</h1>
+
+    <!-- 介紹 -->
+    <p class="mb-2">
+      歡迎來到我的學習歷程網頁。在高中期間，我學習了 Python 與 C++ 的基礎程式設計，並具備基本的程式邏輯與問題解決能力。
+    </p>
+
+    <p class="mb-2">
+      同時，我運用 GitHub 建立並管理自己的網站，累積實作經驗。
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- 關於我 -->
+<section id="about" class="max-w-5xl mx-auto py-20 px-6">
+  <h2 class="text-3xl font-bold mb-6">關於我</h2>
+  <p>
+    我目前就讀資料處理科，學習過 Python、C++、網頁設計，
+    並對人工智慧與影像辨識有興趣。
+  </p>
+</section>
+
+<!-- 專題 -->
+<section id="special" class="bg-white py-20">
+  <div class="max-w-5xl mx-auto px-6">
+  <h2 class="text-3xl font-bold mb-6">專題</h2>
+  <p>
+    未來可以放你的專題介紹、成果展示、或程式作品。
+  </p>
+</section>
+
+<!-- 證照 -->
+<section id="skills" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold mb-6">證照</h2>
+
+    <ul class="space-y-2 list-disc pl-6">
+      <li>TQC+ PowerPoint - 專業級</li>
+      <li>TQC+ Word - 專業級</li>
+      <li>TQC+ Excel - 專業級</li>
+      <li>TQC+ 英文輸入 - 進階級</li>
+      <li>TQC+ Python 程式設計 - 進階級</li>
+      <li>TQC+ App Inventor 程式設計</li>
+      <li>電腦軟體應用 丙級技術士</li>
+      <li>電腦軟體應用 乙級技術士</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 作品 -->
+<section id="projects" class="bg-white py-20">
+  <div class="max-w-5xl mx-auto px-6">
+  <h2 class="text-3xl font-bold mb-6">作品</h2>
+  <p>之後可以放專題、程式作品、網站作品或圖片展示。</p>
+</section>
+
+<!-- 頁尾 -->
+<footer class="text-center py-10 text-gray-400">
+  © 2026 林廷叡 - 個人學習歷程數位檔案
+</footer>
+
+</body>
+</html>
